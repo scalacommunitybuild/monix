@@ -37,7 +37,6 @@ import scala.util.{Failure, Success, Try}
   * Word definition and origin:
   *
   *  - Having the same age or date of origin; a contemporary; synchronous.
-  *  - From the Latin "coævus": com- ‎("equal") in combination with aevum ‎(aevum, "age").
   *  - The constructor of `Coeval` is the dual of an expression that evaluates to an `A`.
   *
   * There are three evaluation strategies:
