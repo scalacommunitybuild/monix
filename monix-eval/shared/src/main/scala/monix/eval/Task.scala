@@ -4050,7 +4050,7 @@ object Task extends TaskInstancesLevel1 {
     * See [[cats.arrow.FunctionK https://typelevel.org/cats/datatypes/functionk.html]].
     *
     * {{{
-    *   import cats.effect._
+    *   import cats.effect.{IO, Resource}
     *   import monix.eval._
     *   import java.io._
     *
@@ -4114,7 +4114,7 @@ object Task extends TaskInstancesLevel1 {
     * with `Resource` or `Iterant`:
     *
     * {{{
-    *   import cats.effect._
+    *   import cats.effect.{IO, Resource}
     *   import monix.eval._
     *   import java.io._
     *
